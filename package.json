@@ -1,0 +1,42 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~41.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-web": "~0.13.12",
+    "firebase": "8.2.3",
+    "prop-types": "^15.4.0",
+    "expo-app-auth": "~10.1.2",
+    "expo-constants": "~10.1.3",
+    "@expo/vector-icons": "^12.0.0",
+    "react-native-paper": "3.6.0",
+    "expo-google-app-auth": "*",
+    "react-native-screens": "~3.0.0",
+    "react-native-elements": "*",
+    "@react-navigation/stack": "*",
+    "react-native-datepicker": "*",
+    "@react-navigation/native": "*",
+    "react-native-actionsheet": "*",
+    "react-native-google-signin": "*",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-linear-gradient": "*",
+    "react-native-touchable-scale": "*",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-bottom-action-menu": "*",
+    "@react-native-community/masked-view": "0.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true
+}
